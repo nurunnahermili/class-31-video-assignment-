@@ -1,0 +1,345 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.main{
+    padding: px 0;
+    background: #f3f3f3;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+   
+   
+  
+    
+
+  
+    .logo-area{
+       
+     
+    }
+
+   .menu-area{
+       margin-left: 50px;
+       margin-top: 10px;
+      
+          
+            
+            
+            li{
+             display: inline-block;
+             position: relative;
+             &:hover > a{
+               color: rgb(168, 18, 18);
+             }
+            
+              &:hover> ul{
+                opacity: 1;
+                visibility: visible;
+              }
+
+              a{
+                padding: 10px  10px;
+                font-size: 16px;
+                color: #000;
+                text-decoration: none;
+                font-weight: 700;
+              
+                 }
+          
+              ul{
+                  position: absolute;
+                  padding-top: 26px;
+                  left: -25px;
+                  width: 300px;
+                  visibility: hidden;
+                  opacity: 0;
+                  transition: .4s;
+                
+                  
+                  
+                  
+               
+                    li{
+                     display: block;
+                     background: #fff;
+                     color: #000;
+                     
+                      &:hover > a{
+                        border-left: 3px solid rgb(145, 18, 18);
+                       
+                       }
+                       
+                      
+                       a{
+                          display: block;
+                          border-bottom: 1px solid #767676;
+                          color: rgb(77, 68, 68);
+
+                      }
+                    }
+               }
+            
+            
+            }
+       
+        }
+   
+       
+    }
+
+  .search-icon{
+      line-height: 2.9em;
+      margin-left: 15px;
+      display: inline-block;
+   
+  }
+
+// banner
+
+.banner{
+  background: url(img/restaurant_title_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 200px 0;
+
+  .inner-banner{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    
+    span{
+
+      img{
+
+      }
+    }
+  
+    h6{
+      font-size: 25px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 300;
+      }
+    h1{
+      color: #fff;
+      font-size: 100px;
+      text-transform: uppercase;
+      font-weight: 300;
+
+    }
+    h5{
+
+    }
+    p{
+      color:#fff;
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .design{
+       border: 1px solid rgb(182, 140, 92);
+       color: rgb(185, 138, 99);
+       padding: 15px 30px;
+       border-radius: 50px;
+       &:hover{
+         background: rgb(15, 14, 14);
+       }
+     
+
+    }
+
+  
+  
+  }
+
+
+
+
+
+
+
+}
+
+
+
+// food-section
+
+.food-section{
+  background: url(img/restaurant_post_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  
+  .food-pic{
+    
+    img{
+     width: 100%;
+    }
+
+  }
+  .food-contant{
+    h2{
+      font-size: 40px;
+
+
+
+    }
+    h1{
+      color: rgb(170, 147, 105);
+      font-size: 120px;
+      text-transform: uppercase;
+      font-weight: 100;
+      margin-top: -20px;
+      margin-bottom: -5px;
+      line-height: 1em;
+    }
+    h3{
+     font-size: 40px;
+
+    }
+    p{
+
+    }
+    .custom{
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 20px;
+      border: none;
+      border: 1px solid rgb(46, 42, 42);
+      transition: .4s;
+      &:hover{
+       background: #000;
+       color: rgb(180, 150, 68);
+       
+      }
+
+    }
+  }
+    
+
+}
+// dishes-section
+.dishes-section{
+     background: url(img/restaurant_blackwood_bg.jpg) no-repeat center;
+     padding: 50px 0;
+  .dishes-item{
+    .deshes{
+
+    }
+    h1{
+      color: #fff;
+      font-size: 60px;
+
+    }
+    h2{
+      color: rgb(184, 165, 106);
+      font-size: 30px;
+      font-weight: 100;
+
+    }
+  }
+}
+// chef
+.chef{
+  background: url(img/restaurant_post_bg.jpg);
+  .chef-left{
+    margin-top: 100px;
+    h2{
+      font-size: 30px;
+
+
+    }
+    h1{
+      font-size: 130px;
+      font-weight: 100;
+      text-transform: uppercase;
+      color: rgb(179, 152, 121);
+       margin: -5px 0;
+    }
+    h3{
+      font-size: 40px;
+    
+
+    }
+    p{
+      font-size: 26px;
+      font-weight: 300;
+    }
+    .first{
+      h5{
+        color: rgb(158, 145, 111);
+        margin-top: 30px;
+
+      }
+      h6{
+
+      }
+    }
+
+    .last{
+      span{
+        img{
+          margin-top: -20px;
+
+        }
+      }
+    }
+  
+  }
+
+  .chef-right{
+    img{
+      width: 100%;
+    }
+  }
+
+
+}
+
+// food
+
+.food-area{
+  background: url(img/restaurant_blackwood_bg.jpg);
+  padding: 150px 0;
+   .food-in{
+     border: 1px solid rgb(112, 109, 109);
+     text-align: center;
+     border-top-left-radius: 150px;
+     border-top-right-radius: 150px;
+     width: 250px;
+     height: 450px;
+     padding-top: 60px;
+     
+    span{
+      img{
+        width: 150px;
+
+      }
+    }
+    h5{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 200;
+      margin-top: 70px;
+      text-transform: uppercase;
+
+    }
+    h6{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 200;
+      margin-top: 10px;
+      text-transform: uppercase;
+    }
+    p{
+      color: rgb(131, 128, 128);
+      padding: 0 10px;
+
+    }
+
+   }
+
+
+
+}
